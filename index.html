@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -11,19 +12,19 @@
         <p>The City of Ocean Dreams!</p>
     </header>
     <nav>
-        <a href="#">Description </a>
-        <a href="#">Attractions</a>
-        <a href="#">Statistics</a>
-        <a href="#">Feedback</a>
-        <a href="#">Quotes</a>
-        <a href="#">Contact</a>
+        <a href="#description">Description </a>
+        <a href="#attraction">Attractions</a>
+        <a href="#statistics">Statistics</a>
+        <a href="#feedback">Feedback</a>
+        <a href="#quotes">Quotes</a>
+        <a href="#contact">Contact</a>
     </nav>
-    <section>
+    <section id="description">
         <h2>Discover Atlantica</h2>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoU1DyD8eFDxSGzzmJ-5aiFYhqMWl25vgB1Lq1Nf-m&s" height="300px">
         <p>The Atlantic Ocean is bounded on the west by North and South America</p>
     </section>
-    <section id="Attractions">
+    <div id="attraction">
           <h2>Attractions</h2>
           <h3>Main Attractions</h3>
           <ol>
@@ -44,7 +45,8 @@
                 </ul>
             </li>
           </ul>
-          <table border="1">
+        </div>
+        <table border="1" id="statistics">
             <h2>City statistics</h2>
             <tr>
                 <th>Attribute</th>
@@ -71,7 +73,7 @@
                 <td>7</td>
             </tr>
           </table>
-          <section id="section">
+          <section id="feedback">
             <h2>Feedback</h2>
           <form method="get">
                
@@ -101,12 +103,12 @@
             <button for="submit">Submit</button>
           </form>
         </section>
-         <section>
+         <section id="quotes">
             <h2>What Citizens Say</h2>
             <p>"Well done is <b>better</b> than well said" - <i>hemant</i></p>
             <p>"Once you choose hope, anything's possible" - Harsh</p>
          </section> 
-         <footer>
+         <footer id="contact">
             <h2>Contact Us</h2>
             <p><i>ladol road rabarivas<br> umiyanagr , vijapur</i> </p>
             <p><i>Email:<a href="mailto:hemantmodi93@gmail.com">hemantmodi93@gmail.com</a></i></p>
@@ -115,6 +117,6 @@
             <p>&copy;2023 Atlantica tourism , Dive into Dreams! </p>
 
          </footer>
-    </section>
+    
 </body>
 </html>

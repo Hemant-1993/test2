@@ -1,0 +1,19 @@
+*{
+   background-color: beige; 
+   font-family: Arial,sans-serif;
+}
+#description , #attraction{
+    background-color: aquamarine;
+    color: green;
+}
+button{
+    border: none;
+    background-color: yellowgreen;
+    color: brown;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+button:hover{
+    background-color: red;
+}
